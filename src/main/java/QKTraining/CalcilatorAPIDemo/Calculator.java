@@ -13,5 +13,4 @@ public class Calculator
 			return res;
 		}
 
-
 }

@@ -1,0 +1,14 @@
+
+<suite name="TestingCalculatorAPI">
+	<test name="AdditionTestCases">
+		<classes>
+			<class name="QKTraining.CalcilatorAPIDemo.AdditionTestCases"/>
+		</classes>
+	</test>
+
+	<test name="SubtractionTestCases">
+		<classes>
+			<class name="QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases"/>
+		</classes>
+	</test>
+</suite>
