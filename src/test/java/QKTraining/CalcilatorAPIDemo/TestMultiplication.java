@@ -37,7 +37,7 @@ public class TestMultiplication
 		 * 2.SET2:	10,20,200
 		 * 3.SET3:	1000 2000 2000000
 		 */
-		Object[][] SetOfValues=new Object[3][3];
+		Object[][] SetOfValues=new Object[4][3];
 		
 		//SET1:
 		SetOfValues[0][0]=1;
@@ -54,11 +54,11 @@ public class TestMultiplication
 		SetOfValues[2][1]=2000;
 		SetOfValues[2][2]=2000000;
 		
-//		//SET4
-//		SetOfValues[3][0]=100;
-//		SetOfValues[3][1]=200;
-//		SetOfValues[3][2]=20000;
-//		
+		//SET4
+		SetOfValues[3][0]=100;
+		SetOfValues[3][1]=200;
+		SetOfValues[3][2]=20000;
+		
 		return SetOfValues;
 	}
 	
