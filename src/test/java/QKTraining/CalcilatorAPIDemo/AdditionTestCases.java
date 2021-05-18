@@ -41,20 +41,20 @@ public class AdditionTestCases
 	    result=obj.Addition(10,20);
 		Assert.assertEquals(result, 30,"Addiion does not work with positive numbers");	
 	}
-//	@Test(priority=2,groups= {"RegressionTest"})
-//	public void TestAdditionWithZeros()
-//	{
-//		System.out.println("Second Test Case");
-//	    result=obj.Addition(0,0);
-//		Assert.assertEquals(result, 0,"Addiion does not work with Zeros");	
-//	}
-//	@Test(priority=3)
-//	public void TestAdditionWithOnePositiveOneNegative()
-//	{
-//		System.out.println("Third Test case");
-//	    result=obj.Addition(10, -8);
-//		Assert.assertEquals(result, 2,"Addition does not work with 1 positive and 1 negative number");
-//	}
+	@Test(priority=2,groups= {"RegressionTest"})
+	public void TestAdditionWithZeros()
+	{
+		System.out.println("Second Test Case");
+	    result=obj.Addition(0,0);
+		Assert.assertEquals(result, 0,"Addiion does not work with Zeros");	
+	}
+	@Test(priority=3)
+	public void TestAdditionWithOnePositiveOneNegative()
+	{
+		System.out.println("Third Test case");
+	    result=obj.Addition(10, -8);
+		Assert.assertEquals(result, 2,"Addition does not work with 1 positive and 1 negative number");
+	}
 	
 	@AfterClass
 	public void TearDown()
