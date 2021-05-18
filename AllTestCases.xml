@@ -11,4 +11,9 @@
 			<class name="QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases"/>
 		</classes>
 	</test>
+	<test name="MultiplicationTestCases">
+		<classes>
+			<class name="QKTraining.CalcilatorAPIDemo.TestMultiplication"/>
+		</classes>
+	</test>
 </suite>

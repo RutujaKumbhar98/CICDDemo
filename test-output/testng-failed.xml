@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestingCalculatorAPI]">
+  <test thread-count="5" name="AdditionTestCases(failed)">
+    <classes>
+      <class name="QKTraining.CalcilatorAPIDemo.AdditionTestCases">
+        <methods>
+          <include name="TestAdditionWithPositiveNumbers"/>
+          <include name="ReInitialiseResultVar"/>
+          <include name="TearDown"/>
+          <include name="Init"/>
+          <include name="TestAdditionWithZeros"/>
+        </methods>
+      </class> <!-- QKTraining.CalcilatorAPIDemo.AdditionTestCases -->
+    </classes>
+  </test> <!-- AdditionTestCases(failed) -->
+  <test thread-count="5" name="SubtractionTestCases(failed)">
+    <classes>
+      <class name="QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases">
+        <methods>
+          <include name="TestSubtractionWithPositiveNumbers"/>
+          <include name="TestSubtractionWith1Positive1NegativeNumber"/>
+          <include name="ReInitialise"/>
+          <include name="Init"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases -->
+    </classes>
+  </test> <!-- SubtractionTestCases(failed) -->
+  <test thread-count="5" name="MultiplicationTestCases(failed)">
+    <classes>
+      <class name="QKTraining.CalcilatorAPIDemo.TestMultiplication">
+        <methods>
+          <include name="ReInitialiseResult"/>
+          <include name="Init"/>
+          <include name="CopyResult"/>
+          <include name="TestMultiplicationWithPositiveValues"/>
+          <include name="CreateResultFolder"/>
+        </methods>
+      </class> <!-- QKTraining.CalcilatorAPIDemo.TestMultiplication -->
+    </classes>
+  </test> <!-- MultiplicationTestCases(failed) -->
+</suite> <!-- Failed suite [TestingCalculatorAPI] -->

@@ -1,70 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T11:37:28 IST" name="TestingCalculatorAPI" finished-at="2021-05-17T11:37:28 IST" duration-ms="328">
+  <suite started-at="2021-05-18T12:11:44 IST" name="TestingCalculatorAPI" finished-at="2021-05-18T12:11:45 IST" duration-ms="475">
     <groups>
       <group name="RegressionTest">
         <method signature="AdditionTestCases.TestAdditionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" name="TestAdditionWithPositiveNumbers" class="QKTraining.CalcilatorAPIDemo.AdditionTestCases"/>
         <method signature="AdditionTestCases.TestAdditionWithZeros()[pri:2, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" name="TestAdditionWithZeros" class="QKTraining.CalcilatorAPIDemo.AdditionTestCases"/>
         <method signature="TestingSubtractionTestCases.TestSubtractionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" name="TestSubtractionWithPositiveNumbers" class="QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases"/>
+        <method signature="TestMultiplication.TestMultiplicationWithPositiveValues(int, int, int)[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" name="TestMultiplicationWithPositiveValues" class="QKTraining.CalcilatorAPIDemo.TestMultiplication"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2021-05-17T11:37:28 IST" name="AdditionTestCases" finished-at="2021-05-17T11:37:28 IST" duration-ms="91">
+    <test started-at="2021-05-18T12:11:44 IST" name="AdditionTestCases" finished-at="2021-05-18T12:11:45 IST" duration-ms="146">
       <class name="QKTraining.CalcilatorAPIDemo.AdditionTestCases">
-        <test-method is-config="true" signature="Init()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="Init" finished-at="2021-05-17T11:37:28 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="Init" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105038" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method is-config="true" signature="ReInitialiseResultVar()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="ReInitialiseResultVar" finished-at="2021-05-17T11:37:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ReInitialiseResultVar()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResultVar" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105082" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialiseResultVar -->
-        <test-method signature="TestAdditionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="TestAdditionWithPositiveNumbers" finished-at="2021-05-17T11:37:28 IST" duration-ms="11" status="PASS">
+        <test-method signature="TestAdditionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="TestAdditionWithPositiveNumbers" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAdditionWithPositiveNumbers -->
-        <test-method is-config="true" signature="ReInitialiseResultVar()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="ReInitialiseResultVar" finished-at="2021-05-17T11:37:28 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="ReInitialiseResultVar()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResultVar" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105108" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialiseResultVar -->
-        <test-method signature="TestAdditionWithZeros()[pri:2, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="TestAdditionWithZeros" finished-at="2021-05-17T11:37:28 IST" duration-ms="2" status="PASS">
+        <test-method signature="TestAdditionWithZeros()[pri:2, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="TestAdditionWithZeros" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAdditionWithZeros -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-17T11:37:28 IST" name="TearDown" finished-at="2021-05-17T11:37:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:QKTraining.CalcilatorAPIDemo.AdditionTestCases@41c2284a]" started-at="2021-05-18T12:11:45 IST" name="TearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105127" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- QKTraining.CalcilatorAPIDemo.AdditionTestCases -->
     </test> <!-- AdditionTestCases -->
-    <test started-at="2021-05-17T11:37:28 IST" name="SubtractionTestCases" finished-at="2021-05-17T11:37:28 IST" duration-ms="39">
+    <test started-at="2021-05-18T12:11:45 IST" name="SubtractionTestCases" finished-at="2021-05-18T12:11:45 IST" duration-ms="58">
       <class name="QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases">
-        <test-method is-config="true" signature="Init()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="Init" finished-at="2021-05-17T11:37:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="Init" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105277" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="ReInitialise" finished-at="2021-05-17T11:37:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="ReInitialise" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105281" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialise -->
-        <test-method signature="TestSubtractionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="TestSubtractionWithPositiveNumbers" finished-at="2021-05-17T11:37:28 IST" duration-ms="5" status="PASS">
+        <test-method signature="TestSubtractionWithPositiveNumbers()[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="TestSubtractionWithPositiveNumbers" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSubtractionWithPositiveNumbers -->
-        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="ReInitialise" finished-at="2021-05-17T11:37:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="ReInitialise" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105297" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialise -->
-        <test-method signature="TestSubtractionWith1Positive1NegativeNumber()[pri:2, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="TestSubtractionWith1Positive1NegativeNumber" finished-at="2021-05-17T11:37:28 IST" duration-ms="6" status="PASS">
+        <test-method signature="TestSubtractionWith1Positive1NegativeNumber()[pri:2, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="TestSubtractionWith1Positive1NegativeNumber" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSubtractionWith1Positive1NegativeNumber -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-17T11:37:28 IST" name="TearDown" finished-at="2021-05-17T11:37:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases@51f116b8]" started-at="2021-05-18T12:11:45 IST" name="TearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105317" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- QKTraining.CalcilatorAPIDemo.TestingSubtractionTestCases -->
     </test> <!-- SubtractionTestCases -->
+    <test started-at="2021-05-18T12:11:45 IST" name="MultiplicationTestCases" finished-at="2021-05-18T12:11:45 IST" duration-ms="106">
+      <class name="QKTraining.CalcilatorAPIDemo.TestMultiplication">
+        <test-method is-config="true" signature="CreateResultFolder(java.lang.String)[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:44 IST" name="CreateResultFolder" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320104951" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateResultFolder -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="Init" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105359" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method is-config="true" signature="ReInitialiseResult()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105376" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReInitialiseResult -->
+        <test-method signature="TestMultiplicationWithPositiveValues(int, int, int)[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="TestMultiplicationWithPositiveValues" data-provider="ProvidePositiveValues" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveValues -->
+        <test-method is-config="true" signature="ReInitialiseResult()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105391" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReInitialiseResult -->
+        <test-method signature="TestMultiplicationWithPositiveValues(int, int, int)[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="TestMultiplicationWithPositiveValues" data-provider="ProvidePositiveValues" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveValues -->
+        <test-method is-config="true" signature="ReInitialiseResult()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105420" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReInitialiseResult -->
+        <test-method signature="TestMultiplicationWithPositiveValues(int, int, int)[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="TestMultiplicationWithPositiveValues" data-provider="ProvidePositiveValues" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveValues -->
+        <test-method is-config="true" signature="ReInitialiseResult()[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="ReInitialiseResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105442" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReInitialiseResult -->
+        <test-method signature="TestMultiplicationWithPositiveValues(int, int, int)[pri:1, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="TestMultiplicationWithPositiveValues" data-provider="ProvidePositiveValues" finished-at="2021-05-18T12:11:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method CreateResultFolder but has not been marked @Optional or defined
+in C:\Users\Rutuja\Desktop\gitClone\CICDDemo\AllTestCases.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveValues -->
+        <test-method is-config="true" signature="CopyResult(java.lang.String)[pri:0, instance:QKTraining.CalcilatorAPIDemo.TestMultiplication@c333c60]" started-at="2021-05-18T12:11:45 IST" name="CopyResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621320105512" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyResult -->
+      </class> <!-- QKTraining.CalcilatorAPIDemo.TestMultiplication -->
+    </test> <!-- MultiplicationTestCases -->
   </suite> <!-- TestingCalculatorAPI -->
 </testng-results>
