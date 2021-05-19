@@ -15,7 +15,7 @@ public class AdditionTestCases
 	@BeforeGroups("RegressionTest")
 	public void InitGroup()
 	{
-		 System.out.println("I am in Before Group1");
+		 System.out.println("I am in Before Group");
 		 obj=new Calculator();
 	}	
 	
